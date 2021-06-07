@@ -1,0 +1,173 @@
+/* Formatação menu */
+#header.scroll {
+  position: fixed;
+  z-index: 1000;
+  background-color: white;
+  width: 100%;
+}
+
+li.nav-item a {
+  color: black;
+}
+
+li.nav-item :hover {
+  background-color: rgb(51, 207, 90);
+}
+
+div#header {
+  background-color: transparent;
+}
+li.nav-item a:hover {
+  color: white;
+}
+
+li.nav-item a:visited {
+  color: black;
+}
+li.nav-item a:target {
+  color: indigo;
+}
+
+ul.dropdown-menu.show {
+  background-color: white;
+}
+
+/*FOrmatação Carousel*/
+div#carousel {
+  height: 500px;
+}
+
+div.carousel-item {
+  height: 500px;
+}
+
+/*Teste*/
+
+div.col:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+/* Formatação texto */
+
+body {
+  font-family: cursive;
+}
+
+/*Formatação "Sobre nós"*/
+img.icons {
+  margin-left: 90px;
+}
+
+div#servicos {
+  padding: 25px;
+}
+
+div.col {
+  margin-bottom: 10px;
+}
+
+.subs-icon {
+  font-size: 15px;
+  text-align: center;
+}
+
+h5.text-center {
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+/*FOrmatação imagens*/
+.iconsize {
+  height: 80px;
+  padding: 10px;
+  border: solid 1px #151a15 var(--light);
+  background-color: #f1f7f1;
+  margin-bottom: 25px;
+  box-shadow: 0 0 1em rgb(54, 194, 124);
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.icons {
+  height: 90px;
+}
+
+/*Formatação clientes*/
+div#clientss {
+  margin-top: 30px;
+}
+
+#spacetop {
+  margin-top: 35px;
+}
+
+.iconsize {
+  transition: all 0.5s;
+  border: 10px solid transparent;
+}
+.iconsize:hover {
+  border: 3px solid #gold;
+
+  box-shadow: 0 0 3em gold;
+}
+
+/* Formatação banner de contato*/
+
+div.contato {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: row;
+  height: 450px;
+  background-color: #dddddd;
+}
+
+/*Esquerda*/
+div.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.left form {
+  width: 85%;
+}
+
+/*Meio*/
+div.mid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+div.texto1 {
+  text-align: center;
+  margin-left: 90px;
+}
+
+/*Direita*/
+div.texto {
+  text-align: center;
+}
+
+div.right {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+img.maps {
+  height: 400px;
+  bottom: 0;
+}
+
+div.assign {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #dddddd;
+  color: rgb(114, 116, 117);
+}
